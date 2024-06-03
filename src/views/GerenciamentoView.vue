@@ -1,174 +1,73 @@
 <template>
   <div>
-    <div class="text-center ">
+    <div class="text-center">
       <img class="title shadow-lg" src="/src/assets/title-img3.png" alt="">
     </div>
 
     <div class="container">
-      <div class="row">
-        <div class="col-md">
-          <div class="column ">
-            <p class="text-inside">ID</p>
-          </div>
-        </div>
-
-        <div class="col-md">
-          <div class="column">
-            <p class="text-inside">Motorista</p>
-          </div>
-        </div>
-
-        <div class="col-md">
-          <div class="column">
-            <p class="text-inside">Destino</p>
-          </div>
-        </div>
- 
-        <div class="col-md">
-          <div class="column">
-            <p class="text-inside">Status</p>
-          </div>
-        </div>
- 
-        <div class="col-md">
-          <div class="column">
-            <p class="text-inside">Observação</p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="row ">
-      
-        <div class="column-item col-md">
-          <div class="">
-            <p class="text-inside">#RI98</p>
-          </div>
-        </div>
-     
-        <div class="column-item col-md">
-          <div class="">
-            <p class="text-inside">ROBERTO</p>
-          </div>
-        </div>
-
-        <div class="column-item col-md">
-          <div class="">
-            <p class="text-inside">SÃO PAULO</p>
-          </div>
-        </div>
-
-        <div class="column-item col-md">
-          <div class="">
-            <p class="text-inside">ENTREGUE</p>
-          </div>
-        </div>
-
-        <div class="column-item col-md">
-          <div class="">
-            <p class="text-inside">1 HORA DE ATRASO</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="column-item col-md bg-secondary">
-          <div class="">
-            <p class="text-inside">#RI42</p>
-          </div>
-        </div>
-
-        <div class="column-item col-md bg-secondary ">
-          <div class="">
-            <p class="text-inside">FELIPE</p>
-          </div>
-        </div>
-        <div class="column-item col-md  bg-secondary">
-          <div class="">
-            <p class="text-inside">MARÍLIA</p>
-          </div>
-        </div>
-
-        <div class="column-item col-md bg-secondary ">
-          <div class="">
-            <p class="text-inside">ENTREGUE</p>
-          </div>
-        </div>
-
-        <div class="column-item col-md bg-secondary ">
-          <div class="">
-            <p class="text-inside">PRAZO CUMPRIDO</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="column-item col-md  ">
-          <div class="">
-            <p class="text-inside">#RI17</p>
-          </div>
-        </div>
-
-        <div class="column-item col-md  ">
-          <div class="">
-            <p class="text-inside">NICHOLAS</p>
-          </div>
-        </div>
-
-        <div class="column-item col-md  ">
-          <div class="">
-            <p class="text-inside">RIO PRETO</p>
-          </div>
-        </div>
-
-        <div class="column-item col-md  ">
-          <div class="">
-            <p class="text-inside">EM TRANSITO</p>
-          </div>
-        </div>
-
-        <div class="column-item col-md  ">
-          <div class="">
-            <p class="text-inside">1 DIA DE ATRASO</p>
-          </div>
-        </div>
-      </div>
+      <table class="table table-striped">
+        <thead class="thead-dark">
+          <tr>
+            <th>ID</th>
+            <th>Motorista</th>
+            <th>Destino</th>
+            <th>Status</th>
+            <th>Observação</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>#RI98</td>
+            <td>ROBERTO</td>
+            <td>SÃO PAULO</td>
+            <td>ENTREGUE</td>
+            <td>1 HORA DE ATRASO</td>
+          </tr>
+          <tr class="bg-secondary">
+            <td>#RI42</td>
+            <td>FELIPE</td>
+            <td>MARÍLIA</td>
+            <td>ENTREGUE</td>
+            <td>PRAZO CUMPRIDO</td>
+          </tr>
+          <tr>
+            <td>#RI17</td>
+            <td>NICHOLAS</td>
+            <td>RIO PRETO</td>
+            <td>EM TRÂNSITO</td>
+            <td>1 DIA DE ATRASO</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </template>
 
-<style>
-.column-item {
-  margin-top: 30%;
-  padding-top: 30px;
-  background-color: rgb(177, 174, 174);
-}
-
-.veiculo-img {
-  border-radius: 20px;
-  padding-left: 5px;
-  height: 80px;
-  margin-right: 20px;
-}
-
+<style scoped>
 .container {
   background-color: #ED1C26;
   margin-top: 7%;
   border-radius: 15px;
 }
 
+.thead {
+  color: #ED1C26;
+  background-color: #ED1C26;
+}
+
 .title {
   height: 50px;
 }
 
-.column {
-  background-color: #ED1C26;
-  padding: 10px;
+.text-center {
+  text-align: center;
 }
 
-.text-inside {
-  font-size: 18px;
-  text-align: center;
-  margin: 0;
-  margin-bottom: 2%;
-  color: white;
+.table {
+  margin-top: 20px;
+}
+
+.bg-secondary {
+  background-color: rgb(177, 174, 174);
 }
 </style>
