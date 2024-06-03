@@ -14,10 +14,10 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>CARRO</td>
-            <td>100Km</td>
-            <td>80kg</td>
+          <tr v-for="(veiculo, index) in veiculos" :key="index">
+            <td>{{ veiculo.veiculo }}</td>
+            <td>{{ veiculo.autonomia }}</td>
+            <td>{{ veiculo.capacidade }}</td>
           </tr>
           <tr class="bg-secondary">
             <td>CARRO</td>
@@ -58,3 +58,30 @@
   background-color: rgb(177, 174, 174);
 }
 </style>
+
+<script>
+import VehicleDataService from "../services/VehicleDataService";
+export default {
+  name: "list-veiculos",
+  data() {
+    return{
+      veiculos: []
+    };
+  },
+  methods: {
+    retriveVehicle() {
+      VehicleDataService.getAll()
+      .then(response => {
+        this.veiculos = response.data;
+        console.log(this.veiculos);
+      })
+      .catch(e => {
+        console.log(e)
+      });
+    }
+  },
+  mounted() {
+    this.retriveVehicle();
+  },
+}
+</script>

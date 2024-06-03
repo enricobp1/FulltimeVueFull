@@ -16,12 +16,12 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>#RI98</td>
-            <td>ROBERTO</td>
-            <td>SÃO PAULO</td>
-            <td>ENTREGUE</td>
-            <td>1 HORA DE ATRASO</td>
+          <tr v-for="(delivery, index) in deliveries" :key="index">
+            <td>{{ delivery.id }}</td>
+            <td>{{ delivery.motorista }}</td>
+            <td>{{ delivery.destino }}</td>
+            <td>{{ delivery.status }}</td>
+            <td>{{ delivery.obs }}</td>
           </tr>
           <tr class="bg-secondary">
             <td>#RI42</td>
@@ -71,3 +71,32 @@
   background-color: rgb(177, 174, 174);
 }
 </style>
+
+<script>
+import DeliverDataService from "../services/DeliverDataService";
+
+
+export default {
+  name: "list-deliveries",
+  data() {
+    return{
+      posts: []
+    };
+  },
+  methods: {
+    retriveDelivery() {
+      DeliverDataService.getAll()
+      .then(response => {
+        this.deliveries = response.data;
+        console.log(this.deliveries);
+      })
+      .catch(e => {
+        console.log(e)
+      });
+    }
+  },
+  mounted() {
+    this.retriveDelivery();
+  },
+}
+</script>
