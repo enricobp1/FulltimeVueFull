@@ -7,27 +7,17 @@
     <div class="container">
       <table class="table table-striped">
         <thead class="thead-dark">
-          <tr>
-            <th>Veículo</th>
-            <th>Autonomia</th>
-            <th>Capacidade</th>
+          <tr class="color-title">
+            <th style="background-color: #ed1c26;">Veículo</th>
+            <th style="background-color: #ed1c26;">Autonomia</th>
+            <th style="background-color: #ed1c26;">Capacidade</th>
           </tr>
         </thead>
         <tbody>
           <tr v-for="(veiculo, index) in veiculos" :key="index">
             <td>{{ veiculo.veiculo }}</td>
-            <td>{{ veiculo.autonomia }}</td>
-            <td>{{ veiculo.capacidade }}</td>
-          </tr>
-          <tr class="bg-secondary">
-            <td>CARRO</td>
-            <td>140Km</td>
-            <td>40Kg</td>
-          </tr>
-          <tr>
-            <td>CARRO</td>
-            <td>134Km</td>
-            <td>30Kg</td>
+            <td>{{ veiculo.autonomia }}Km</td>
+            <td>{{ veiculo.capacidade }}Kg</td>
           </tr>
         </tbody>
       </table>
@@ -36,6 +26,8 @@
 </template>
 
 <style scoped>
+
+
 .container {
   background-color: #ED1C26;
   margin-top: 7%;

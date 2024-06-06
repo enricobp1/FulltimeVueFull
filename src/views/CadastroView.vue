@@ -10,19 +10,19 @@
             <form @submit.prevent="saveDelivery">
               <div class="form-group text-center">
                 <label for="nomeEntregador1" class="d-block">Nome do Entregador</label>
-                <input type="text" class="form-control input-border" id="nomeEntregador1" placeholder="Insira nome do entregador">
+                <input type="text" class="form-control input-border" id="nomeEntregador1" placeholder="Insira nome do entregador" v-model="entrega.motorista" required>
               </div>
               <div class="form-group text-center">
                 <label for="destino1" class="d-block">Destino</label>
-                <input type="text" class="form-control input-border" id="destino1" placeholder="Insira o destino">
+                <input type="text" class="form-control input-border" id="destino1" placeholder="Insira o destino" v-model="entrega.destino" required>
               </div>
               <div class="form-group text-center">
                 <label for="idEntrega1" class="d-block">Status</label>
-                <input type="text" class="form-control input-border" id="idEntrega1" placeholder="Insira o status">
+                <input type="text" class="form-control input-border" id="idEntrega1" placeholder="Insira o status" v-model="entrega.status" required>
               </div>
               <div class="form-group text-center">
                 <label for="observacoes1" class="d-block">Observações</label>
-                <textarea class="form-control input-border" id="observacoes1" rows="3" placeholder="observações"></textarea>
+                <textarea class="form-control input-border" id="observacoes1" rows="3" placeholder="observações" v-model="entrega.observacao" required></textarea>
               </div>
               <div class="form-group text-center">
                 <button type="submit" class="btn btn-red">Registrar</button>
@@ -37,15 +37,15 @@
             <form @submit.prevent="saveVehicle">
               <div class="form-group text-center">
                 <label for="veiculo" class="d-block">Veículo</label>
-                <input type="text" class="form-control input-border" id="veiculo" placeholder="Insira o veiculo" v-model="vehicle.vehicleName" required>
+                <input type="text" class="form-control input-border" id="veiculo" placeholder="Insira o veiculo" v-model="veiculo.veiculo" required>
               </div>
               <div class="form-group text-center">
                 <label for="capacidade" class="d-block">Capacidade</label>
-                <input type="number" class="form-control input-border" id="capacidade" placeholder="Insira a Capacidade" v-model="vehicle.capacity" required>
+                <input type="number" class="form-control input-border" id="capacidade" placeholder="Insira a Capacidade" v-model="veiculo.capacidade" required>
               </div>
               <div class="form-group text-center">
                 <label for="autonomia" class="d-block">Autonomia</label>
-                <input type="number" class="form-control input-border" id="autonomia" placeholder="Insira a autonomia" v-model="vehicle.autonomy" required>
+                <input type="number" class="form-control input-border" id="autonomia" placeholder="Insira a autonomia" v-model="veiculo.autonomia" required>
               </div>
               <div class="form-group text-center">
                 <button class="btn btn-red">Registrar Veiculo</button>
@@ -89,25 +89,25 @@ export default {
   name: "new-delivery",
   data() {
     return {
-      delivery: {
-        deliveryman: "",
-        destiny: "",
+      entrega: {
+        motorista: "",
+        destino: "",
         status: "",
-        obs: ""
+        observacao: ""
       },
-      vehicle: {
-        vehicleName: "",
-        autonomy: "",
-        capacity: ""
+      veiculo: {
+        veiculo: "",
+        autonomia: "",
+        capacidade: ""
       }
     };
   },
   methods: {
     saveVehicle() {
       var data = {
-        vehicleName: this.vehicle.vehicleName,
-        autonomy: this.vehicle.autonomy,
-        capacity: this.vehicle.capacity
+        veiculo: this.veiculo.veiculo,
+        autonomia: this.veiculo.autonomia,
+        capacidade: this.veiculo.capacidade
       };
 
       VehicleDataService.create(data)
@@ -120,10 +120,10 @@ export default {
     },
     saveDelivery() {
       var data = {
-        deliveryman: this.delivery.deliveryman,
-        destiny: this.delivery.destiny,
-        status: this.delivery.status,
-        obs: this.delivery.obs
+        motorista: this.entrega.motorista,
+        destino: this.entrega.destino,
+        status: this.entrega.status,
+        observacao: this.entrega.observacao
       };
 
       DeliverDataService.create(data)

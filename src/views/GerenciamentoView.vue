@@ -8,34 +8,20 @@
       <table class="table table-striped">
         <thead class="thead-dark">
           <tr>
-            <th>ID</th>
-            <th>Motorista</th>
-            <th>Destino</th>
-            <th>Status</th>
-            <th>Observação</th>
+            <th style="background-color: #ed1c26;">ID</th>
+            <th style="background-color: #ed1c26;">Motorista</th>
+            <th style="background-color: #ed1c26;">Destino</th>
+            <th style="background-color: #ed1c26;">Status</th>
+            <th style="background-color: #ed1c26;">Observação</th>
           </tr>
         </thead>
         <tbody>
-          <tr v-for="(delivery, index) in deliveries" :key="index">
-            <td>{{ delivery.id }}</td>
-            <td>{{ delivery.motorista }}</td>
-            <td>{{ delivery.destino }}</td>
-            <td>{{ delivery.status }}</td>
-            <td>{{ delivery.obs }}</td>
-          </tr>
-          <tr class="bg-secondary">
-            <td>#RI42</td>
-            <td>FELIPE</td>
-            <td>MARÍLIA</td>
-            <td>ENTREGUE</td>
-            <td>PRAZO CUMPRIDO</td>
-          </tr>
-          <tr>
-            <td>#RI17</td>
-            <td>NICHOLAS</td>
-            <td>RIO PRETO</td>
-            <td>EM TRÂNSITO</td>
-            <td>1 DIA DE ATRASO</td>
+          <tr v-for="(entrega, index) in entregas" :key="index">
+            <td>{{ entrega.id }}</td>
+            <td>{{ entrega.motorista }}</td>
+            <td>{{ entrega.destino }}</td>
+            <td>{{ entrega.status }}</td>
+            <td>{{ entrega.observacao }}</td>
           </tr>
         </tbody>
       </table>
@@ -77,18 +63,18 @@ import DeliverDataService from "../services/DeliverDataService";
 
 
 export default {
-  name: "list-deliveries",
+  name: "list-entregas",
   data() {
     return{
-      posts: []
+      entregas: []
     };
   },
   methods: {
     retriveDelivery() {
       DeliverDataService.getAll()
       .then(response => {
-        this.deliveries = response.data;
-        console.log(this.deliveries);
+        this.entregas = response.data;
+        console.log(this.entregas);
       })
       .catch(e => {
         console.log(e)

@@ -6,7 +6,7 @@ class VehicleDataService {
     }
 
     create(data) {
-        return http.post("/Veiculos")
+        return http.post("/Veiculos", data)
     }
 }
 
