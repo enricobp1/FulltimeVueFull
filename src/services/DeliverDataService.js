@@ -8,6 +8,10 @@ class DeliverDataService {
     create(data) {
         return http.post("/Entrega", data)
     }
+
+    update(data) {
+        return http.put("/Entrega", data)
+    }
 }
 
 export default new  DeliverDataService();

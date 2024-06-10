@@ -34,7 +34,7 @@ namespace API_P2
             app.UseAuthorization();
 
             //app.UseCors("CorsPolicy");
-            app.UseCors(option => option.AllowAnyOrigin().AllowAnyHeader());
+            app.UseCors(option => option.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
 
             app.MapControllers();
 

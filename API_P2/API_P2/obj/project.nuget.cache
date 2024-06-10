@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y5L3cxx/2t7e8amGlly65oC1EcgIM0gj0J3ENa3s1GTDt0KakoB38+rDmHbsapxoDRdZ2IJvSBpzyYIH+io7Tg==",
+  "dgSpecHash": "1p3bL4HeI0jWcqfrN5R/w8gPwcf5L8708TV1FF/ZOTHtTAqZ/Rq5Yauk30oxua6hcLS0IqMTl6dOFQoXcSe+4g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ebper\\Downloads\\FulltimeVue-main\\Backend\\API_P2\\API_P2\\API_P2.csproj",
+  "projectFilePath": "C:\\Users\\ebper\\Downloads\\FulltimeVue-main\\API_P2\\API_P2\\API_P2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ebper\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ebper\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

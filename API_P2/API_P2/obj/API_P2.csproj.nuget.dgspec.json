@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ebper\\Downloads\\FulltimeVue-main\\Backend\\API_P2\\API_P2\\API_P2.csproj": {}
+    "C:\\Users\\ebper\\Downloads\\FulltimeVue-main\\API_P2\\API_P2\\API_P2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ebper\\Downloads\\FulltimeVue-main\\Backend\\API_P2\\API_P2\\API_P2.csproj": {
+    "C:\\Users\\ebper\\Downloads\\FulltimeVue-main\\API_P2\\API_P2\\API_P2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ebper\\Downloads\\FulltimeVue-main\\Backend\\API_P2\\API_P2\\API_P2.csproj",
+        "projectUniqueName": "C:\\Users\\ebper\\Downloads\\FulltimeVue-main\\API_P2\\API_P2\\API_P2.csproj",
         "projectName": "API_P2",
-        "projectPath": "C:\\Users\\ebper\\Downloads\\FulltimeVue-main\\Backend\\API_P2\\API_P2\\API_P2.csproj",
+        "projectPath": "C:\\Users\\ebper\\Downloads\\FulltimeVue-main\\API_P2\\API_P2\\API_P2.csproj",
         "packagesPath": "C:\\Users\\ebper\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ebper\\Downloads\\FulltimeVue-main\\Backend\\API_P2\\API_P2\\obj\\",
+        "outputPath": "C:\\Users\\ebper\\Downloads\\FulltimeVue-main\\API_P2\\API_P2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ebper\\AppData\\Roaming\\NuGet\\NuGet.Config",

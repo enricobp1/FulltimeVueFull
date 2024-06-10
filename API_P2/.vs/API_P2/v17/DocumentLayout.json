@@ -1,13 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ebper\\Downloads\\FulltimeVue-main\\Backend\\API_P2\\",
+  "WorkspaceRootPath": "C:\\Users\\ebper\\Downloads\\FulltimeVue-main\\API_P2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{25DE3384-2DD4-4EAC-9A21-021DE92D5159}|API_P2\\API_P2.csproj|c:\\users\\ebper\\downloads\\fulltimevue-main\\backend\\api_p2\\api_p2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{25DE3384-2DD4-4EAC-9A21-021DE92D5159}|API_P2\\API_P2.csproj|c:\\users\\ebper\\downloads\\fulltimevue-main\\api_p2\\api_p2\\controllers\\veiculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25DE3384-2DD4-4EAC-9A21-021DE92D5159}|API_P2\\API_P2.csproj|solutionrelative:api_p2\\controllers\\veiculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25DE3384-2DD4-4EAC-9A21-021DE92D5159}|API_P2\\API_P2.csproj|c:\\users\\ebper\\downloads\\fulltimevue-main\\api_p2\\api_p2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25DE3384-2DD4-4EAC-9A21-021DE92D5159}|API_P2\\API_P2.csproj|solutionrelative:api_p2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25DE3384-2DD4-4EAC-9A21-021DE92D5159}|API_P2\\API_P2.csproj|c:\\users\\ebper\\downloads\\fulltimevue-main\\backend\\api_p2\\api_p2\\migrations\\20240603223850_migration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{25DE3384-2DD4-4EAC-9A21-021DE92D5159}|API_P2\\API_P2.csproj|c:\\users\\ebper\\downloads\\fulltimevue-main\\api_p2\\api_p2\\model\\entrega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25DE3384-2DD4-4EAC-9A21-021DE92D5159}|API_P2\\API_P2.csproj|solutionrelative:api_p2\\model\\entrega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25DE3384-2DD4-4EAC-9A21-021DE92D5159}|API_P2\\API_P2.csproj|c:\\users\\ebper\\downloads\\fulltimevue-main\\api_p2\\api_p2\\dto\\entregarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25DE3384-2DD4-4EAC-9A21-021DE92D5159}|API_P2\\API_P2.csproj|solutionrelative:api_p2\\dto\\entregarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25DE3384-2DD4-4EAC-9A21-021DE92D5159}|API_P2\\API_P2.csproj|c:\\users\\ebper\\downloads\\fulltimevue-main\\api_p2\\api_p2\\migrations\\20240603223850_migration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25DE3384-2DD4-4EAC-9A21-021DE92D5159}|API_P2\\API_P2.csproj|solutionrelative:api_p2\\migrations\\20240603223850_migration1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -23,23 +35,62 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "VeiculosController.cs",
+              "DocumentMoniker": "C:\\Users\\ebper\\Downloads\\FulltimeVue-main\\API_P2\\API_P2\\Controllers\\VeiculosController.cs",
+              "RelativeDocumentMoniker": "API_P2\\Controllers\\VeiculosController.cs",
+              "ToolTip": "C:\\Users\\ebper\\Downloads\\FulltimeVue-main\\API_P2\\API_P2\\Controllers\\VeiculosController.cs",
+              "RelativeToolTip": "API_P2\\Controllers\\VeiculosController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAADwvzcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T02:56:03.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EntregaRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ebper\\Downloads\\FulltimeVue-main\\API_P2\\API_P2\\DTO\\EntregaRequest.cs",
+              "RelativeDocumentMoniker": "API_P2\\DTO\\EntregaRequest.cs",
+              "ToolTip": "C:\\Users\\ebper\\Downloads\\FulltimeVue-main\\API_P2\\API_P2\\DTO\\EntregaRequest.cs",
+              "RelativeToolTip": "API_P2\\DTO\\EntregaRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T02:02:30.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Entrega.cs",
+              "DocumentMoniker": "C:\\Users\\ebper\\Downloads\\FulltimeVue-main\\API_P2\\API_P2\\Model\\Entrega.cs",
+              "RelativeDocumentMoniker": "API_P2\\Model\\Entrega.cs",
+              "ToolTip": "C:\\Users\\ebper\\Downloads\\FulltimeVue-main\\API_P2\\API_P2\\Model\\Entrega.cs",
+              "RelativeToolTip": "API_P2\\Model\\Entrega.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T21:46:35.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ebper\\Downloads\\FulltimeVue-main\\Backend\\API_P2\\API_P2\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\ebper\\Downloads\\FulltimeVue-main\\API_P2\\API_P2\\Program.cs",
               "RelativeDocumentMoniker": "API_P2\\Program.cs",
-              "ToolTip": "C:\\Users\\ebper\\Downloads\\FulltimeVue-main\\Backend\\API_P2\\API_P2\\Program.cs",
+              "ToolTip": "C:\\Users\\ebper\\Downloads\\FulltimeVue-main\\API_P2\\API_P2\\Program.cs",
               "RelativeToolTip": "API_P2\\Program.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwA8AAAAMAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAgwCQAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T19:03:01.15Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "20240603223850_migration1.cs",
-              "DocumentMoniker": "C:\\Users\\ebper\\Downloads\\FulltimeVue-main\\Backend\\API_P2\\API_P2\\Migrations\\20240603223850_migration1.cs",
+              "DocumentMoniker": "C:\\Users\\ebper\\Downloads\\FulltimeVue-main\\API_P2\\API_P2\\Migrations\\20240603223850_migration1.cs",
               "RelativeDocumentMoniker": "API_P2\\Migrations\\20240603223850_migration1.cs",
-              "ToolTip": "C:\\Users\\ebper\\Downloads\\FulltimeVue-main\\Backend\\API_P2\\API_P2\\Migrations\\20240603223850_migration1.cs",
+              "ToolTip": "C:\\Users\\ebper\\Downloads\\FulltimeVue-main\\API_P2\\API_P2\\Migrations\\20240603223850_migration1.cs",
               "RelativeToolTip": "API_P2\\Migrations\\20240603223850_migration1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

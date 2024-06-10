@@ -8,6 +8,10 @@ class VehicleDataService {
     create(data) {
         return http.post("/Veiculos", data)
     }
-}
+
+    delete(id) {
+        return http.delete(`/Veiculos/${id}`);
+      }
+    }
 
 export default new  VehicleDataService();
