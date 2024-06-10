@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "API_P2\\Controllers\\VeiculosController.cs",
               "ToolTip": "C:\\Users\\ebper\\Downloads\\FulltimeVue-main\\API_P2\\API_P2\\Controllers\\VeiculosController.cs",
               "RelativeToolTip": "API_P2\\Controllers\\VeiculosController.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAADwvzcAAAAAAAAA",
+              "ViewState": "AQIAACkAAAAAAAAAAAAswDcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-10T02:56:03.547Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "API_P2\\DTO\\EntregaRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T02:02:30.134Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T02:02:30.134Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "API_P2\\Model\\Entrega.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T21:46:35.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T21:46:35.499Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "API_P2\\Program.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAgwCQAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T19:03:01.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T19:03:01.15Z"
             },
             {
               "$type": "Document",

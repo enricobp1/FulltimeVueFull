@@ -15,17 +15,17 @@
 ## Imagens: 
 
 
-### *Gerenciamento de Entrega*
-![Gerenciamento de Entrega](./prints/GerenciamentoDeEntregas.png "Gerenciamento de Entrega")
-#### Mostra o status atual de cada entrega.
+### *Gerenciamento de Entregas*
+![Gerenciamento de Entregas](./prints/GerenciamentoDeEntregas.png "Gerenciamento de Entregas")
+#### Mostra o status atual de cada entrega, com botões para confirmar e cancelar cada entrega.
 
 
-### *Cadastro Do Entregador*
-![Cadastro de Entregador](./prints/RegistroDeEntregador.png "Cadastro de Entregador")
-#### Serve para cadastrar novas entregas com nome do entregador e destino.
+### *Cadastros*
+![Cadastros](./prints/Cadastros.png "Cadastros")
+#### Serve para cadastrar novas entregas e novos veículos.
 
 
 ### *Menu de Despacho*
-![Despacho](./prints/Despacho.png "Despacho")
-#### Mostra todos os veículos disponiveis.
+![Despacho](./prints/Veiculo.png "Veículos")
+#### Mostra todos os veículos disponiveis, com botão para remover o veículo quando não estiver mais disponível.
 

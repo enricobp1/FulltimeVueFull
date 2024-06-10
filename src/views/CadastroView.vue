@@ -17,10 +17,6 @@
                 <input type="text" class="form-control input-border" id="destino1" placeholder="Insira o destino" v-model="entrega.destino" required>
               </div>
               <div class="form-group text-center">
-                <label for="idEntrega1" class="d-block">Status</label>
-                <input type="text" class="form-control input-border" id="idEntrega1" placeholder="Insira o status" v-model="entrega.status" required>
-              </div>
-              <div class="form-group text-center">
                 <label for="observacoes1" class="d-block">Observações</label>
                 <textarea class="form-control input-border" id="observacoes1" rows="3" placeholder="observações" v-model="entrega.observacao" required></textarea>
               </div>
@@ -122,7 +118,7 @@ export default {
       var data = {
         motorista: this.entrega.motorista,
         destino: this.entrega.destino,
-        status: this.entrega.status,
+        status: "EM ANDAMENTO",
         observacao: this.entrega.observacao
       };
 
